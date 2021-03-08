@@ -1,0 +1,18 @@
+[package]
+name = "keywords"
+version = "0.1.0"
+authors = ["Erin Power <xampprocky@gmail.com>"]
+edition = "2018"
+license = "MIT/Apache-2.0"
+description = "TBD"
+
+[lib]
+proc-macro = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+syn = { version = "1.0.58", features = ["full", "extra-traits"] }
+quote = "1.0.8"
+proc-macro2 = "1.0.24"
+heck = "0.3.2"
